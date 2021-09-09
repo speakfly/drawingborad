@@ -13,7 +13,7 @@ let lWidth = 4;
 
 autoSetSize(canvas);
 
-setCanvasBg('white');
+//setCanvasBg('white');
 
 listenToUser(canvas);
 
