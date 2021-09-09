@@ -158,7 +158,6 @@ brush.onclick = function () {
 
 reSetCanvas.onclick = function () {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    setCanvasBg('white');
 };
 
 save.onclick = function () {
