@@ -158,6 +158,7 @@ brush.onclick = function () {
 
 reSetCanvas.onclick = function () {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = 'rgba(255, 255, 255, 0)'
 };
 
 save.onclick = function () {
